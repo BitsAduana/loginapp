@@ -24,7 +24,7 @@ module.exports = {
       directory: path.join(__dirname, 'dist'),
     },
     compress: true,
-    public: 'loginapp-production.up.railway.app',
+    allowedHosts: ['loginapp-production.up.railway.app'],
     port: 8080,
   },
 }
